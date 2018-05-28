@@ -114,11 +114,6 @@ double Renderer::getLetterboxAspect() const
 	}
 }
 
-int Renderer::getLetterboxMode() const
-{
-	return this->letterboxMode;
-}
-
 Int2 Renderer::getWindowDimensions() const
 {
 	const SDL_Surface *nativeSurface = this->getWindowSurface();
